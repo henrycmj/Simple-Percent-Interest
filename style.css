@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/svg.png");
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid #196b78;
+    margin: 10px 70px;
+}
+
+h1,
+h2,
+a {
+    color: #196b78;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+.welcomeBox{
+    margin: 10px 70px;
+    padding: 5px;
+}
+/* answer return */
+.answer{
+    border: 1px solid #196b78;
+}
