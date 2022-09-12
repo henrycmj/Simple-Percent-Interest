@@ -30,6 +30,6 @@ span{
     padding: 5px;
 }
 /* answer return */
-.answer{
-    border: 1px solid #196b78;
+#ans{
+    border-bottom: 1px solid #196b78;
 }
