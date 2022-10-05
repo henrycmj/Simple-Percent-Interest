@@ -1,9 +1,11 @@
+const inputs = document.querySelector('.input-area');
 
-const interest = () => {
-    const amount = document.getElementById("amount").value
-    const percent = document.getElementById("percent").value
-    let divider = 100
+const amount = document.querySelector('#amount');
+const percent = document.querySelector('#percent');
 
-    let answer = percent / divider * amount;
-    const ans = document.getElementById("ans").innerHTML =+ answer;
-}
+inputs.addEventListener('submit', (e) =>{
+    e.preventDefault();
+    let divider = 100;
+    const calc = percent.value / divider * amount.value ;
+    const ans = document.getElementById("ans").innerHTML =+ calc;    
+})
